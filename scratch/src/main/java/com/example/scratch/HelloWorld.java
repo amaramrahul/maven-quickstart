@@ -15,7 +15,7 @@ package com.example.project;
  *
  * @author Rahul Amaram
  */
-public class App {
+public class HelloWorld {
 	/**
 	 * Main Method.
 	 *
