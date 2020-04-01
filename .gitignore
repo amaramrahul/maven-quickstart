@@ -46,5 +46,16 @@ atlassian-ide-plugin.xml
 .idea/kotlinc.xml
 .idea/.gitignore
 
-### Miscellaneous
-scratchpad/src/
+### Ignore all scratch files except HelloWorld.java
+scratch/src/*
+!scratch/src/main/
+scratch/src/main/*
+!scratch/src/main/java/
+scratch/src/main/java/*
+!scratch/src/main/java/com/
+scratch/src/main/java/com/*
+!scratch/src/main/java/com/example/
+scratch/src/main/java/com/example/*
+!scratch/src/main/java/com/example/scratch/
+scratch/src/main/java/com/example/scratch/*
+!scratch/src/main/java/com/example/scratch/HelloWorld.java

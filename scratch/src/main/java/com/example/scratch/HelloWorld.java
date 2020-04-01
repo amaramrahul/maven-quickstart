@@ -22,6 +22,6 @@ public class App {
 	 * @param args Command line arguments
 	 */
 	public static void main(String[] args) {
-		System.out.println("Hello World Project!");
+		System.out.println("Hello World Scratch!");
 	}
 }
