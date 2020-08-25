@@ -45,6 +45,7 @@ atlassian-ide-plugin.xml
 .idea/sonarIssues.xml
 .idea/kotlinc.xml
 .idea/.gitignore
+.idea/jarRepositories.xml
 
 ### Ignore all scratch files except HelloWorld.java
 scratch/src/*
