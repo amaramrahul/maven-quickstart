@@ -8,7 +8,7 @@
  * entered into with Example Corporation.
  */
 
-package com.example.project;
+package com.example.snippets;
 
 /**
  * Hello world.
