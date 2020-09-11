@@ -48,6 +48,9 @@ atlassian-ide-plugin.xml
 .idea/jarRepositories.xml
 
 ### Ignore all scratch files except HelloWorld.java
+scratch/*
+!scratch/pom.xml
+!scratch/src/
 scratch/src/*
 !scratch/src/main/
 scratch/src/main/*
