@@ -7,7 +7,7 @@ public class Triplet<A, B, C> {
     B second;
     C third;
 
-    public Triplet(A first, B second, C third) {
+    Triplet(A first, B second, C third) {
         this.first = first;
         this.second = second;
         this.third = third;

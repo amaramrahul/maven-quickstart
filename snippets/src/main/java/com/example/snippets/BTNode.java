@@ -7,7 +7,7 @@ public class BTNode<T> {
     BTNode<T> left;
     BTNode<T> right;
 
-    public BTNode(T data, BTNode<T> left, BTNode<T> right) {
+    BTNode(T data, BTNode<T> left, BTNode<T> right) {
         this.data = data;
         this.left = left;
         this.right = right;
