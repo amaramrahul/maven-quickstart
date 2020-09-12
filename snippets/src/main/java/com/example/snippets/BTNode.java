@@ -3,26 +3,14 @@ package com.example.snippets;
 import java.util.Objects;
 
 public class BTNode<T> {
-    private final T data;
-    private final BTNode<T> left;
-    private final BTNode<T> right;
+    T data;
+    BTNode<T> left;
+    BTNode<T> right;
 
     public BTNode(T data, BTNode<T> left, BTNode<T> right) {
         this.data = data;
         this.left = left;
         this.right = right;
-    }
-
-    public T getData() {
-        return data;
-    }
-
-    public BTNode<T> getLeft() {
-        return left;
-    }
-
-    public BTNode<T> getRight() {
-        return right;
     }
 
     @Override

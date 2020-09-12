@@ -3,20 +3,12 @@ package com.example.snippets;
 import java.util.Objects;
 
 public class Node<T> {
-    private final T data;
-    private final Node<T> next;
+    T data;
+    Node<T> next;
 
     public Node(T data, Node<T> next) {
         this.data = data;
         this.next = next;
-    }
-
-    public T getData() {
-        return data;
-    }
-
-    public Node<T> getNext() {
-        return next;
     }
 
     @Override
