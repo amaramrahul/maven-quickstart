@@ -37,7 +37,7 @@ class DisjointSet<T> {
             sizes.put(rootY, sizes.get(rootX) + sizes.get(rootY));
         } else {
             parents.put(rootY, rootX);
-            sizes.put(rootX, sizes.get(rootX) + sizes.get(rootX));
+            sizes.put(rootX, sizes.get(rootX) + sizes.get(rootY));
         }
     }
 
