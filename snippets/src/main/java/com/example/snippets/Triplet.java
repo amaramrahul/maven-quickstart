@@ -2,7 +2,7 @@ package com.example.snippets;
 
 import java.util.Objects;
 
-public class Triplet<A, B, C> {
+class Triplet<A, B, C> {
     A first;
     B second;
     C third;

@@ -2,7 +2,7 @@ package com.example.snippets;
 
 import java.util.Objects;
 
-public class Node<T> {
+class Node<T> {
     T data;
     Node<T> next;
 

@@ -2,7 +2,7 @@ package com.example.snippets;
 
 import java.util.Objects;
 
-public class BTNode<T> {
+class BTNode<T> {
     T data;
     BTNode<T> left;
     BTNode<T> right;

@@ -2,7 +2,7 @@ package com.example.snippets;
 
 import java.util.Objects;
 
-public class Pair<A, B> {
+class Pair<A, B> {
     A first;
     B second;
 

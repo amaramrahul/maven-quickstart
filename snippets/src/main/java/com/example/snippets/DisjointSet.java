@@ -2,12 +2,12 @@ package com.example.snippets;
 
 import java.util.*;
 
-public class DisjointSet<T> {
+class DisjointSet<T> {
     Map<T, T> parents = new HashMap<>();
     Map<T, Integer> sizes = new HashMap<>();
     Map<T, Integer> ranks = new HashMap<>();
 
-    public void makeSet(T x) {
+    void makeSet(T x) {
         if (!parents.containsKey(x)) {
             parents.put(x, x);
             sizes.put(x, 1);
@@ -15,7 +15,7 @@ public class DisjointSet<T> {
         }
     }
 
-    public T find(T x) {
+    T find(T x) {
         if (!x.equals(parents.get(x))) {
             parents.put(x, find(parents.get(x)));
             return parents.get(x);
@@ -24,7 +24,7 @@ public class DisjointSet<T> {
         }
     }
 
-    public void unionBySize(T x, T y) {
+    void unionBySize(T x, T y) {
         T rootX = find(x);
         T rootY = find(y);
 
@@ -41,7 +41,7 @@ public class DisjointSet<T> {
         }
     }
 
-    public void unionByRank(T x, T y) {
+    void unionByRank(T x, T y) {
         T rootX = find(x);
         T rootY = find(y);
 
