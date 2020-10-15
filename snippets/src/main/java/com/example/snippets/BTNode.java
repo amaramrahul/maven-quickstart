@@ -12,20 +12,4 @@ class BTNode<T> {
         this.left = left;
         this.right = right;
     }
-
-    @Override
-    public int hashCode() {
-        return Objects.hash(data, left, right);
-    }
-
-    @Override
-    public boolean equals(Object o) {
-        if (this == o)
-            return true;
-        if (!(o instanceof BTNode))
-            return false;
-        BTNode<?> node = (BTNode<?>) o;
-        return Objects.equals(data, node.data) && Objects.equals(left, node.left)
-                && Objects.equals(right, node.right);
-    }
 }

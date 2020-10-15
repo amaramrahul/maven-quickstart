@@ -1,10 +1,10 @@
 package com.example.snippets;
 
 import static org.testng.Assert.*;
+import org.testng.annotations.*;
 
 public class DisjointSetTest {
-
-    @org.testng.annotations.Test
+    @Test
     public void testUnionBySize() {
         DisjointSet<Character> ds = new DisjointSet<>();
         ds.makeSet('a');
