@@ -3,6 +3,11 @@ package com.example.snippets;
 import org.testng.annotations.*;
 import org.testng.Assert;
 
+/**
+ * Examples taken from
+ * https://www.tutorialspoint.com/testng/index.htm
+ */
+
 public class TestNGSampleTests {
     // test case 1
     @Test(groups = { "functest", "checkintest" }, dependsOnMethods = "testCase3")
