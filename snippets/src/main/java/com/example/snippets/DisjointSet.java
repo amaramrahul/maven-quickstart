@@ -35,9 +35,11 @@ class DisjointSet<T> {
         if (sizes.get(rootX) < sizes.get(rootY)) {
             parents.put(rootX, rootY);
             sizes.put(rootY, sizes.get(rootX) + sizes.get(rootY));
+            sizes.remove(rootX);
         } else {
             parents.put(rootY, rootX);
             sizes.put(rootX, sizes.get(rootX) + sizes.get(rootY));
+            sizes.remove(rootY);
         }
     }
 
@@ -52,10 +54,13 @@ class DisjointSet<T> {
         if (ranks.get(rootX).equals(ranks.get(rootY))) {
             ranks.put(rootX, ranks.get(rootX)+1);
             parents.put(rootY, rootX);
+            ranks.remove(rootY);
         } else if (ranks.get(rootX) < ranks.get(rootY)) {
             parents.put(rootX, rootY);
+            ranks.remove(rootX);
         } else {
             parents.put(rootY, rootX);
+            ranks.remove(rootY);
         }
     }
 }
