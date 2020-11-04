@@ -22,6 +22,11 @@ public class HelloWorld {
 	 * @param args Command line arguments
 	 */
 	public static void main(String[] args) {
-		System.out.println("Hello World Project!");
+		HelloWorld helloWorld = new HelloWorld();
+		System.out.println(helloWorld.getWelcomeMessage());
+	}
+
+	public String getWelcomeMessage() {
+		return "Hello World!";
 	}
 }

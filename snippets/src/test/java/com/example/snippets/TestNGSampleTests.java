@@ -31,14 +31,13 @@ public class TestNGSampleTests {
 
     @DataProvider(name = "test1")
     public static Object[][] numberPairs() {
-        return new Object[][] {{2, "2"}, {6, "60"}, {19, "019"}, {22, "21"}, {23, "23"}};
+        return new Object[][] {{2, "2"}, {19, "019"}, {22, "22"}};
     }
 
     @Test(dataProvider = "test1")
     public void testCase4(int number, String strNumber) {
         System.out.println("in test case 4");
         Assert.assertEquals(number, Integer.parseInt(strNumber));
-
     }
 
     @BeforeMethod

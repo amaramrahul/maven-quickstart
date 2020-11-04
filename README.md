@@ -19,3 +19,11 @@ $ mvn -pl project exec:exec -Dexec.executable="java" [-Dexec.workingdir="/tmp"] 
 ```
 $ mvn package
 ```
+
+## Dropwizard
+```
+$ java -jar dropwizard/target/dropwizard-1.0-SNAPSHOT.jar server dropwizard/helloworld.yml
+$ curl "http://localhost:8080/hello-world?name=Rahul"
+$ curl "http://localhost:8081/"
+$ curl "http://localhost:8081/healthcheck"
+```
