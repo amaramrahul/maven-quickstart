@@ -60,6 +60,8 @@ scratch/src/main/java/*
 scratch/src/main/java/com/*
 !scratch/src/main/java/com/example/
 scratch/src/main/java/com/example/*
-!scratch/src/main/java/com/example/scratch/
-scratch/src/main/java/com/example/scratch/*
-!scratch/src/main/java/com/example/scratch/HelloWorld.java
+!scratch/src/main/java/com/example/project/
+scratch/src/main/java/com/example/project/*
+!scratch/src/main/java/com/example/project/scratch/
+scratch/src/main/java/com/example/project/scratch/*
+!scratch/src/main/java/com/example/project/scratch/HelloWorld.java

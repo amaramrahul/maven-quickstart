@@ -1,6 +1,8 @@
 package com.example.snippets;
 
 import static org.testng.Assert.*;
+
+import com.example.project.snippets.DisjointSet;
 import org.testng.annotations.*;
 
 public class DisjointSetTest {

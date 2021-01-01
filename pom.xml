@@ -4,15 +4,15 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.example</groupId>
-    <artifactId>quickstart</artifactId>
+    <groupId>com.example.project</groupId>
+    <artifactId>project</artifactId>
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>project</module>
-        <module>dropwizard</module>
+        <module>app</module>
         <module>snippets</module>
         <module>scratch</module>
+        <module>ws</module>
     </modules>
 
     <properties>
